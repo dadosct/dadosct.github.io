@@ -2,97 +2,88 @@
 <html>
 <head>
     <title>Covid-19 | dadosCT</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 </head>
 <body>
-    <ul>
-        <img src="logo.png" style="float: left; margin-left:30px"></img>
-        <!-- ACTIVE ELEMENT <li><a class="active" href="#about">CONTATO</a></li> -->
-        <li><a href="#contato">CONTATO</a></li>
-        <li><a href="#sobre">SOBRE</a></li>
-        <li><a href="#contact">BAIRROS</a></li>
-        <li><a href="#news">MUNICÍPIOS</a></li>
-        <li><a href="#home">ESTADO</a></li>
-    </ul>
-    <div class="content">
-        <div class="row">
-            <div class="column">
-                <h2>Explicação 1</h2>
-                <p>aaaaa<br><br><br><br><br><br><br><br><br><br><br><br></p>
-            </div>
-            <div class="column">
-                <h2>Gráfico 1</h2>
-                <p>bbbbb</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column">
-                <h2>Gráfico 2</h2>
-                <p>aaaaa<br><br><br><br><br><br><br><br><br><br><br><br></p>
-            </div>
-            <div class="column">
-                <h2>Explicação 2</h2>
-                <p>bbbbb</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column">
-                <h2>Explicação 3</h2>
-                <p>aaaaa<br><br><br><br><br><br><br><br><br><br><br><br></p>
-            </div>
-            <div class="column">
-                <h2>Gráfico 3</h2>
-                <p>bbbbb</p>
-            </div>
-        </div>
-    </div>
-    <div class="sobre" id="sobre">
-        <!--
-        <h1>Nossa Equipe</h1>
-        <div class="pessoas">
-            <div class="card">
-                <div style="float:left;">
-                    <h3>João</h3>
-                    <img src="https://pbs.twimg.com/profile_images/378800000697215858/9a5915ca79ff9c0141824d4aa3352fd8.jpeg"></img>
+
+    <header>
+        <ul>
+            <img src="assets/logo.png" style="float: left; margin-left:30px"></img>
+            <!-- ACTIVE ELEMENT <li><a class="active" href="#about">CONTATO</a></li> -->
+            <li><a href="#contato">CONTATO</a></li>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#contact">BAIRROS</a></li>
+            <li><a href="#news">MUNICÍPIOS</a></li>
+            <li><a href="#home">ESTADO</a></li>
+        </ul>      
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="row">
+                <div class="column">
+                    <h2>Explicação 1</h2>
+                    <p>aaaaa<br><br><br><br><br><br><br><br><br><br><br><br></p>
                 </div>
-                <div>
-                    <p>texto sobre o josé muito maior do que o texto anterior mas é isso aaaaaaaa</p>
+                <div class="column">
+                    <h2>Gráfico 1</h2>
+                    <p>bbbbb</p>
                 </div>
             </div>
-            <div class="card">
-                <div style="float:left">
-                    <h3>José</h3>
-                    <img src="https://s3-us-west-1.amazonaws.com/gtvcdn/image/channel_logo_636572480135692098.jpg"></img>
+            <div class="row">
+                <div class="column">
+                    <h2>Gráfico 2</h2>
+                    <p>aaaaa<br><br><br><br><br><br><br><br><br><br><br><br></p>
                 </div>
-                <div>
-                    <p>texto sobre o josé muito maior do que o texto anterior mas é isso aaaaaaaa</p>
+                <div class="column">
+                    <h2>Explicação 2</h2>
+                    <p>bbbbb</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h2>Explicação 3</h2>
+                    <p>aaaaa<br><br><br><br><br><br><br><br><br><br><br><br></p>
+                </div>
+                <div class="column">
+                    <h2>Gráfico 3</h2>
+                    <p>bbbbb</p>
                 </div>
             </div>
         </div>
-        -->
-    </div>
+        <div class="sobre" id="sobre">
+            <!--
+            <h1>Nossa Equipe</h1>
+            <div class="pessoas">
+                <div class="card">
+                    <div style="float:left;">
+                        <h3>João</h3>
+                        <img src="https://pbs.twimg.com/profile_images/378800000697215858/9a5915ca79ff9c0141824d4aa3352fd8.jpeg"></img>
+                    </div>
+                    <div>
+                        <p>texto sobre o josé muito maior do que o texto anterior mas é isso aaaaaaaa</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div style="float:left">
+                        <h3>José</h3>
+                        <img src="https://s3-us-west-1.amazonaws.com/gtvcdn/image/channel_logo_636572480135692098.jpg"></img>
+                    </div>
+                    <div>
+                        <p>texto sobre o josé muito maior do que o texto anterior mas é isso aaaaaaaa</p>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+    </main>
+
     <button onclick="topFunction()" id="myBtn" title="Go to top">Topo</button>
-    <script>
-        //Get the button:
-        mybutton = document.getElementById("myBtn");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
+    <footer>
+        <script lang="javascript" src="js/scrollTop.js"></script>
+    </footer>
 
-        function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-        }
-    </script>
 </body>
 </html>
