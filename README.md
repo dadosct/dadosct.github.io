@@ -12,3 +12,7 @@ um site seria a melhor maneira de entregar conteúdo.
 
 Estamos buscando alunos da Ufes para compor o grupo com webdesign! Se puderem
 contribuir com o site do projeto, agradeceremos muito!
+
+## Comunicação
+
+Via discord, só chegar! https://discord.gg/FXX9pwz
