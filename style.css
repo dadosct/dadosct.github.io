@@ -9,15 +9,14 @@ body {
 .navbar {
     background-color: #ebebeb;
     margin-bottom: 10px;
-    height: 64px;
 }
 
 .navbar-nav li {
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 .navbar-nav li a{
-    padding: 22.5px 30px;
+    padding: 22.5px 60px; /* falta fazer a altura inteira */
     font-size: 14px;
     font-weight: bold;
 }
