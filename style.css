@@ -5,36 +5,46 @@ html{
 body {
     margin: 0px;
 }
-/* Navbar */
-.navbar {
-    background-color: #ebebeb;
-    margin-bottom: 10px;
+/* Header */
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EBEBEB;
+    top: 0;
+    width: 95%;
 }
-
-.navbar-nav li {
-  margin-right: 40px;
+li {
+    float: right;
 }
-
-.navbar-nav li a{
-    padding: 22.5px 60px; /* falta fazer a altura inteira */
+.active {
+    background-color: #EB4034;
+    color: #FFF
+}  
+li a {
+    display: block;
+    color: #EB4034;
+    color: #404040;
+    text-align: center;
+    padding: 22.5px 30px;
+    text-decoration: none;
     font-size: 14px;
     font-weight: bold;
+    letter-spacing: 1px;
 }
-
-.navbar-nav li a:hover{
-  background-color: #F2685E;
-  color: #FFF;
+li a:hover {
+    background-color: #F2685E;
+    color: #FFF
 }
-
 /* Contents */
-<<<<<<< HEAD
 .container {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
-=======
->>>>>>> 77c90324bac3b18c4daa451f64103afb78e3bfbb
 .row {
     margin: 0px 50px;
 }
@@ -78,7 +88,7 @@ body {
 .sobre .pessoas {
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
 }
 .pessoas:after {
     content: "";
@@ -106,7 +116,7 @@ body {
     border-radius: 5px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
 }
-
+  
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
-}
+}  
