@@ -5,46 +5,29 @@ html{
 body {
     margin: 0px;
 }
-/* Header */
-ul {
-    list-style-type: none;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #EBEBEB;
-    top: 0;
-    width: 95%;
+/* Navbar */
+.navbar {
+    background-color: #ebebeb;
+    margin-bottom: 10px;
+    height: 64px;
 }
-li {
-    float: right;
+
+.navbar-nav li {
+  margin-right: 30px;
 }
-.active {
-    background-color: #EB4034;
-    color: #FFF
-}  
-li a {
-    display: block;
-    color: #EB4034;
-    color: #404040;
-    text-align: center;
+
+.navbar-nav li a{
     padding: 22.5px 30px;
-    text-decoration: none;
     font-size: 14px;
     font-weight: bold;
-    letter-spacing: 1px;
 }
-li a:hover {
-    background-color: #F2685E;
-    color: #FFF
+
+.navbar-nav li a:hover{
+  background-color: #F2685E;
+  color: #FFF;
 }
+
 /* Contents */
-.content {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-}
 .row {
     margin: 0px 50px;
 }
@@ -88,7 +71,7 @@ li a:hover {
 .sobre .pessoas {
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 .pessoas:after {
     content: "";
@@ -116,7 +99,7 @@ li a:hover {
     border-radius: 5px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
 }
-  
+
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
-}  
+}
